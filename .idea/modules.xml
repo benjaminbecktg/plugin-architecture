@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/plugin-api/plugin-api.iml" filepath="$PROJECT_DIR$/plugin-api/plugin-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/plugin-architecture.iml" filepath="$PROJECT_DIR$/plugin-architecture.iml" />
+      <module fileurl="file://$PROJECT_DIR$/plugin-base/plugin-base.iml" filepath="$PROJECT_DIR$/plugin-base/plugin-base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/plugin-easternBank/plugin-easternBank.iml" filepath="$PROJECT_DIR$/plugin-easternBank/plugin-easternBank.iml" />
+      <module fileurl="file://$PROJECT_DIR$/plugin-services/plugin-services.iml" filepath="$PROJECT_DIR$/plugin-services/plugin-services.iml" />
+      <module fileurl="file://$PROJECT_DIR$/plugin-southernBank/plugin-southernBank.iml" filepath="$PROJECT_DIR$/plugin-southernBank/plugin-southernBank.iml" />
+    </modules>
+  </component>
+</project>
