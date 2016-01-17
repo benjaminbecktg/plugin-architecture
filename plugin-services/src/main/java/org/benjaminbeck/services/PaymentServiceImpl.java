@@ -1,7 +1,10 @@
 package org.benjaminbeck.services;
 
-import org.benjaminbeck.plugins.constant.*;
-import org.benjaminbeck.plugins.model.*;
+import org.benjaminbeck.domain.constant.PaymentStatusCode;
+import org.benjaminbeck.domain.constant.SystemActions;
+import org.benjaminbeck.domain.model.PaymentRequestModel;
+import org.benjaminbeck.domain.model.PaymentResponseModel;
+import org.benjaminbeck.domain.constant.*;
 import org.benjaminbeck.gateway.*;
 
 import java.util.HashMap;

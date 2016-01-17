@@ -12,6 +12,8 @@
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/plugin-console-runner/pom.xml" />
+        <option value="$PROJECT_DIR$/plugin-easternBank/pom.xml" />
+        <option value="$PROJECT_DIR$/plugin-southernBank/pom.xml" />
         <option value="$PROJECT_DIR$/plugin-southernPaymentGateway/pom.xml" />
         <option value="$PROJECT_DIR$/southern-bank/pom.xml" />
       </set>

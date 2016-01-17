@@ -1,4 +1,4 @@
-package org.benjaminbeck.plugins.constant;
+package org.benjaminbeck.domain.constant;
 
 /**
  * Created by Benjamin.Beck on 11/22/2015.

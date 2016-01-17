@@ -27,16 +27,6 @@
             <artifactId>plugin-services</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
-        <dependency>
-            <groupId>org.benjaminbeck</groupId>
-            <artifactId>plugin-southernBank</artifactId>
-            <version>1.0-SNAPSHOT</version>
-        </dependency>
-        <dependency>
-            <groupId>org.benjaminbeck</groupId>
-            <artifactId>plugin-easternBank</artifactId>
-            <version>1.0-SNAPSHOT</version>
-        </dependency>
     </dependencies>
 
 </project>

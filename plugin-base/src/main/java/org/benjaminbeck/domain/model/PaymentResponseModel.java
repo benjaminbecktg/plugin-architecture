@@ -1,6 +1,7 @@
-package org.benjaminbeck.plugins.model;
+package org.benjaminbeck.domain.model;
 
-import org.benjaminbeck.plugins.constant.*;
+import org.benjaminbeck.domain.constant.PaymentStatusCode;
+import org.benjaminbeck.domain.constant.*;
 
 import java.io.Serializable;
 

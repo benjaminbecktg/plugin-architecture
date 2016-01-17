@@ -19,14 +19,12 @@
       </profile>
       <profile default="false" name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="plugin-api" />
         <module name="plugin-base" />
-        <module name="plugin-easternBank" />
         <module name="plugin-services" />
-        <module name="plugin-southernBank" />
         <module name="plugin-southernPaymentGateway" />
       </profile>
     </annotationProcessing>

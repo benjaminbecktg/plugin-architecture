@@ -11,8 +11,6 @@
     <modules>
         <module>plugin-base</module>
         <module>plugin-services</module>
-        <module>plugin-easternBank</module>
-        <module>plugin-southernBank</module>
         <module>plugin-api</module>
     </modules>
 </project>

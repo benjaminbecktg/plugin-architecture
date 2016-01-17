@@ -1,6 +1,7 @@
 package org.benjaminbeck.gateway;
 
-import org.benjaminbeck.plugins.model.*;
+import org.benjaminbeck.domain.model.PaymentRequestModel;
+import org.benjaminbeck.domain.model.PaymentResponseModel;
 
 import org.springframework.integration.annotation.Gateway;
 import org.springframework.integration.annotation.MessagingGateway;

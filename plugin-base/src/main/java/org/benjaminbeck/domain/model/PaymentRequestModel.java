@@ -1,4 +1,4 @@
-package org.benjaminbeck.plugins.model;
+package org.benjaminbeck.domain.model;
 import java.io.Serializable;
 
 /**

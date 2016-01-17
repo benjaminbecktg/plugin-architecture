@@ -1,7 +1,7 @@
 package org.benjaminbeck.api;
 
-import org.benjaminbeck.plugins.model.PaymentRequestModel;
-import org.benjaminbeck.plugins.model.PaymentResponseModel;
+import org.benjaminbeck.domain.model.PaymentRequestModel;
+import org.benjaminbeck.domain.model.PaymentResponseModel;
 import org.benjaminbeck.services.PaymentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
@@ -25,21 +25,21 @@ public class PaymentController {
     }
     @RequestMapping(value = "/pay", method = RequestMethod.POST)
     @ResponseBody
-    PaymentResponseModel Pay(PaymentRequestModel requestModel) {
+    PaymentResponseModel Pay(@RequestBody PaymentRequestModel requestModel) {
         PaymentResponseModel responseModel = paymentService.makePayment(requestModel);
         return responseModel;
     }
 
     @RequestMapping(value = "/authorise", method = RequestMethod.POST)
     @ResponseBody
-    PaymentResponseModel Authorise(PaymentRequestModel requestModel) {
+    PaymentResponseModel Authorise(@RequestBody PaymentRequestModel requestModel) {
         PaymentResponseModel responseModel = paymentService.authorisePayment(requestModel);
         return responseModel;
     }
 
     @RequestMapping(value = "/capture", method = RequestMethod.POST)
     @ResponseBody
-    PaymentResponseModel Capture(PaymentRequestModel requestModel) {
+    PaymentResponseModel Capture(@RequestBody PaymentRequestModel requestModel) {
         PaymentResponseModel responseModel = paymentService.capturePayment(requestModel);
         return responseModel;
     }
