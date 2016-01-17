@@ -11,7 +11,5 @@ There are total of 5 sub-projects within the solution
 |---------|-------------|
 | plugin-api | The API project that accepts request and return response to the caller. |
 | plugin-base | The base project required by individual plugin. |
-| plugin-easternBank | A plugin that inherits the plugin-base. A fictional bank called Eastern Bank. |
-| plugin-southernBank | A plugin that inherits the plugin-base. A fictional bank called Southern Bank. |
 | plugin-service | The library that contains the gateway and routing service which intelligently route the relevant payment to the responsible plugin. |
 
